@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
       print(barcodeScanRes);
       
     } on PlatformException {
-      barcodeScanRes = 'Failed to get platform version.';
+      barcodeScanRes = 'Sorry!! Failed to get platform version.';
     }
 
     // If the widget was removed from the tree while the asynchronous platform
